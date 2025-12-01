@@ -1,0 +1,26 @@
+{
+  "servers": {
+    "kali-mcp-windows": {
+      "command": [
+        "python3",
+        "mcp_server.py",
+        "--server",
+        "http://<KALI_IP>:5000",
+        "--timeout",
+        "300"
+      ],
+      "cwd": "C:/Users/Master/Desktop/mandible_attack"
+    },
+    "kali-mcp-kali": {
+      "command": [
+        "python3",
+        "mcp_server.py",
+        "--server",
+        "http://127.0.0.1:5000",
+        "--timeout",
+        "300"
+      ],
+      "cwd": "/home/kali/mandible_attack"
+    }
+  }
+}
