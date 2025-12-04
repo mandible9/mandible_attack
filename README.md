@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/3ec06ff8-0bdf-4ad5-be71-2ec490b7ee27
 
 ### On your Kali Machine
 ```bash
-git clone https://github.com/Wh0am123/MCP-Kali-Server.git
+git clone https://github.com/mandible9/mandible_attack.git
 cd MCP-Kali-Server
 pip install -r requirements.txt
 python3 kali_server.py
